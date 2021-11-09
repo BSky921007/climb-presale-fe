@@ -13,9 +13,9 @@ import SectionAlternate from 'hoc/SectionAlternate';
 import Customization from './Customization';
 import Customrig from './Customrig';
 import Roadmap from './Roadmap';
-import Conquest from './Conquest';
-import Traits from './Traits';
-import urlSource from 'ipfs-utils/src/files/url-source';
+// import Conquest from './Conquest';
+// import Traits from './Traits';
+// import urlSource from 'ipfs-utils/src/files/url-source';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -58,16 +58,6 @@ const Home = () => {
           <Customrig />
         </Section>
       </Element>
-      {/* <Element>
-      <Section>
-        <Traits />
-      </Section>
-      </Element>
-      <Element name="">
-      <SectionAlternate>
-        <Conquest />
-      </SectionAlternate>
-      </Element> */}
       <Element name="roadmap-section" className={classes.roadmap}>
         <Section >
           <Roadmap />

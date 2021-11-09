@@ -16,7 +16,7 @@ import { MemoizedOutlinedTextField } from 'components/UI/OutlinedTextField';
 import Image from 'components/UI/Image';
 import { isEmpty, delay } from 'utils/utility';
 import { nftInstance } from 'services/nftInstance';
-import {ethers} from "ethers";
+// import {ethers} from "ethers";
 
 const useStyles = makeStyles(theme => ({
   actionButton: {

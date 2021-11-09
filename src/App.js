@@ -93,7 +93,7 @@ const App = () => {
                 <MintModal
                   headerTitle={'Mint Customrig NFT'}
                   open={true}
-                  onClose={openCloseDialogHandler(false)}
+                  onClose={openCloseDialogHandler(true)}
                   setActivatingConnector={setActivatingConnector}
                   activatingConnector={activatingConnector}
                   triedEager={triedEager}
